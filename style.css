@@ -82,3 +82,24 @@
     align-self: flex-end;
     padding-bottom: 20px;
 } */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+
+  .footer-one,
+  .footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+  }
+
+  
